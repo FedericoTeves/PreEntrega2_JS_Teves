@@ -11,7 +11,7 @@ class Compra {
     }
     confirmarCompra() {
         if (this.obtenerSubtotal() !== 'Error inesperado') {
-            return `✅ Confirmamos el pago de $ ${this.obtenerSubtotal()}. \n Muchas gracias por su compra!`
+            return `✅ Confirmamos el pago de $ ${costoTotal}. \n Muchas gracias por su compra!`
         } else {
             return `⛔️ Error en la transacción.`
         }
